@@ -23,14 +23,14 @@ function App() {
 
 
   return (
-    <Pagination
+    <> <Pagination />
       <h2>Current Page {page}</h2>
       <div className='buttons'>
         <button>Previous Page={page}</button>
         <button >Next Page={setPage}</button> 
-      </div>
-    />  
-    <BeaniesList beanieBabies={beanieBabies} />
+      </div> 
+      <BeaniesList beanieBabies={beanieBabies} />
+    </>
   );
 }
 

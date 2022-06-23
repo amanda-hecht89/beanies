@@ -4,7 +4,7 @@ import { getSingleBeanie } from './services/fetch-utils';
 
 export default function BeanieDetail() {
   const params = useParams();
-  const [beanieBaby, setBeanieBaby] = useState = ({});
+  const [beanieBaby, setBeanieBaby] = useState({});
   // you'll need to track the current beanieBaby in state
   // you'll need to get the route param using the appropriate react router hook
 

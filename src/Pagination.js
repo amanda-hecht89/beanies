@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Pagination({
-  currentPage, lastPage, setCurrentPage,
+  currentPage, setCurrentPage,
 }) {
   return (
     <div>
@@ -13,5 +13,5 @@ export default function Pagination({
 }
 
 
-
+//edit commit for netifly//
 //disabled={currentPage >= lastPage} //

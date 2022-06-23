@@ -23,12 +23,7 @@ function App() {
 
 
   return (
-    <> <Pagination />
-      <h2>Current Page {page}</h2>
-      <div className='buttons'>
-        <button>Previous Page={page}</button>
-        <button >Next Page={setPage}</button> 
-      </div> 
+    <> <Pagination setCurrentPage={setPage} currentPage={page} />
       <BeaniesList beanieBabies={beanieBabies} />
     </>
   );

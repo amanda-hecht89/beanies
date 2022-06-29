@@ -1,4 +1,4 @@
-import { client, checkError } from './client';
+import { client, } from './client';
 
 export async function getBeanieBabies(from = 0, to = 30) {
   const response = await client

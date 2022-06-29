@@ -6,7 +6,7 @@ export async function getBeanieBabies(from = 0, to = 30) {
     .select()
     .range(from, to);
 
-  return checkError(response);
+  return response.body;
 }
 
 export async function getSingleBeanie(id) {
@@ -16,6 +16,6 @@ export async function getSingleBeanie(id) {
     .match({ id })
     .single();
 
-  return checkError(response);
+  return response.body;
 
 }
